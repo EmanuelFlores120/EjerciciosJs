@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>var frase = prompt("Introduce una frase:");
+        var vocales = "";
+        for (var i = 0; i < frase.length; i++) {
+          var letra = frase.charAt(i).toLowerCase();
+          if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
+            vocales += letra + " ";
+          }
+        }
+        document.write("Las vocales que aparecen son: " + vocales);
+        </script>
+    <script>src="/js/ejercicio9.js"</script>
+</body>
+</html>
